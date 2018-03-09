@@ -1,0 +1,39 @@
+{
+  "name": "stackeye",
+  "version": "2.4.1",
+  "description": "StackEye is a chrome extension which lets user watch questions on stackoverflow and other stackexchange sites.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrbrianhobo/bountyful"
+  },
+  "keywords": [
+    "Stackoverflow",
+    "StackExchange",
+    "Notifications",
+    "Chrome",
+    "Extension"
+  ],
+  "author": [ 
+    "Brian Ho", 
+    "Gillain Chu",
+    "Tammy Vu"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrbrianhobo/bountyful/issues"
+  },
+  "homepage": "https://github.com/mrbrianhobo/bountyful",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-zipup": "~0.1.6"
+  },
+  "dependencies": {
+    "ipfs-js": "0.0.11",
+    "ipfs-mini": "^1.1.2",
+    "sweetalert2": "^7.12.4"
+  }
+}
